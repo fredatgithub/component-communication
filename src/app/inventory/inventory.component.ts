@@ -7,7 +7,6 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 })
 export class InventoryComponent implements OnInit {
 
-
   @Input() branchName: string = '<branch name>';
 
   @Output() increased = new EventEmitter<number>();
